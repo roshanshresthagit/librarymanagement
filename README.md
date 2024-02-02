@@ -14,12 +14,13 @@ For creating a user
 endpoint: http://127.0.0.1:8000/user/register/
 method POST
 json
+'''
 {
     "name": "name",
     "email": "email@gmail.com",
     "membership_date": date
 }
-
+'''
 For Viewing all users
 endpoint: http://127.0.0.1:8000/user/viewusers/
 method GET
