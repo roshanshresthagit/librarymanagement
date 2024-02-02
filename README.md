@@ -10,11 +10,13 @@ librarymgt app consist models and views related to books like adding book, view 
 for the api view i have used the generic view as it is use to use and modify accordingly.
 
 and here are api endpoints
+
+
 For creating a user
 endpoint: http://127.0.0.1:8000/user/register/
 method POST
 json
-'''
+
 {
     "name": "name",
     "email": "email@gmail.com",
